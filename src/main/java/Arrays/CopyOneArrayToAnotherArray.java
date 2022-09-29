@@ -7,6 +7,7 @@ public class CopyOneArrayToAnotherArray {
     public static void main(String[] args) {
 
         int[] arrOne = {1, 2, 3, 4, 5, 6};
+
         int[] arrTwo = new int[arrOne.length];
 
         for (int i = 0; i < arrOne.length; i++) {

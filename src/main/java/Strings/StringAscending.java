@@ -10,6 +10,7 @@ public class StringAscending {
         String[] lower = new String[str.length];
 
         for (int i = 0; i < str.length; i++) {
+
             lower[i] = str[i].toLowerCase();
         }
         Arrays.sort(lower);

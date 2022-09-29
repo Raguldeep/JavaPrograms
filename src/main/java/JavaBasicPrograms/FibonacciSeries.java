@@ -12,6 +12,7 @@ public class FibonacciSeries {
         System.out.println(n2);
 
         for (int i = 0; i <= 5; i++) {
+
             n3 = n1 + n2;
             System.out.println(n3);
 

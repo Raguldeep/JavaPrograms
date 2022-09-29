@@ -13,7 +13,6 @@ public class GreatestNumberFromIntegerArray {
         for (int i = 0; i < arr.length; i++) {
             arrayList.add(arr[i]);
         }
-
         System.out.println(Collections.min(arrayList));
     }
 }

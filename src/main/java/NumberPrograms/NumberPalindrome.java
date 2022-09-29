@@ -9,7 +9,6 @@ public class NumberPalindrome {
         int reverse = 0;
         int temp = number;
 
-
         while (number != 0) {
             remainder = number % 10;
             reverse = reverse * 10 + remainder;

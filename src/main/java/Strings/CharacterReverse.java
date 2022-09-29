@@ -7,6 +7,7 @@ public class CharacterReverse {
         char ch[] = {'1', '2', '9', '2', '5'};
 
         for (int i = ch.length - 1; i >= 0; i--) {
+
             System.out.println(ch[i]);
         }
     }

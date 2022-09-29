@@ -7,7 +7,6 @@ public class SortAString {
     public static void main(String[] args) {
 
         String str = "GeeksforGeeks";
-
         char[] ch = str.toLowerCase().toCharArray();
 
         Arrays.sort(ch);

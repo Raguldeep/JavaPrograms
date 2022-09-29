@@ -12,8 +12,10 @@ public class StringPalindrome {
         }
         System.out.println(rev);
         if (str.equals(rev)) {
+
             System.out.println("Palindrome String");
         } else {
+
             System.out.println("Not a Palindrome String");
         }
     }

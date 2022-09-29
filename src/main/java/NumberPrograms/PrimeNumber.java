@@ -14,8 +14,10 @@ public class PrimeNumber {
             }
         }
         if (!flag) {
+
             System.out.println("Prime number");
         } else {
+
             System.out.println("Not a Prime number");
         }
     }

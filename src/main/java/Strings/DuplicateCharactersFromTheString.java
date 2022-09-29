@@ -22,6 +22,7 @@ public class DuplicateCharactersFromTheString {
         }
 
         for (Map.Entry entry : hashMap.entrySet()) {
+
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
     }

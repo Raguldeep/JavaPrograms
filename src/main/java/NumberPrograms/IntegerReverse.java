@@ -3,6 +3,7 @@ package NumberPrograms;
 public class IntegerReverse {
 
     public static void main(String[] args) {
+
         int number = 542341;
         int remainder = 0;
         int reverse = 0;

@@ -9,6 +9,7 @@ public class IntegerArrayDescending {
     public static void main(String[] args) {
 
         Arrays.sort(arrOne);
+
         System.out.println(Arrays.toString(arrOne));
 
         for (int i = arrOne.length - 1; i >= 0; i--) {

@@ -14,6 +14,7 @@ public class SwappingEachTwoCharacters {
             ch[i] = ch[i + 1];
             ch[i + 1] = temp;
         }
+
         System.out.println(ch);
     }
 }

@@ -22,7 +22,8 @@ public class DuplicateNumbersInInteger {
             }
         }
 
-        for (Map.Entry nu : hashMap.entrySet()){
+        for (Map.Entry nu : hashMap.entrySet()) {
+
             System.out.println(nu.getKey() + " - " + nu.getValue());
         }
     }

@@ -10,6 +10,7 @@ public class StringDescending {
         String[] des = new String[str.length];
 
         for (int i = 0; i < str.length; i++) {
+
             des[i] = str[i].toLowerCase();
         }
 

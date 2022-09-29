@@ -10,6 +10,7 @@ public class CountTheNumberOfWordsInString {
         System.out.println(split.length);
 
         for (String count : split) {
+
             System.out.println(count);
         }
     }

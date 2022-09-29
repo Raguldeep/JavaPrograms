@@ -10,8 +10,8 @@ public class CapitalFirstLetterOfString {
         for (String s : split) {
 
             String first = s.substring(0, 1);
-            String remai = s.substring(1, s.length());
-            String add = first.toUpperCase() + remai;
+            String remaining = s.substring(1, s.length());
+            String add = first.toUpperCase() + remaining;
             System.out.print(s + " - ");
             System.out.println(add);
 

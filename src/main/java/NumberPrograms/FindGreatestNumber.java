@@ -16,7 +16,6 @@ public class FindGreatestNumber {
 //        arr.add(b);
 //        arr.add(c);
 //        System.out.println(arr);
-//
 //        System.out.println(Collections.min(arr));
 
         if (a >= b && a >= c) {

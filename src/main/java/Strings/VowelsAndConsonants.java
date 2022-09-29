@@ -23,6 +23,7 @@ public class VowelsAndConsonants {
                 consonants++;
             }
         }
+
         System.out.println(vowels);
         System.out.println(space);
         System.out.println(consonants);

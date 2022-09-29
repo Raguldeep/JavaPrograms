@@ -9,8 +9,10 @@ public class PrintFirstLetterOfEachWord {
         String[] split = inputString.split(" ");
 
         for (String firstLetter : split) {
+
             String f = firstLetter.substring(0,1);
             System.out.println(f.toLowerCase());
+
         }
     }
 }
